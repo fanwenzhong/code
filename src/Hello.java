@@ -5,4 +5,9 @@ public class Hello {
     public static void main(String[] args){
         System.out.println(123);
     }
+    /*空参数构造方法*/
+    public Hello(){};
+    /*y有参数构造方法*/
+    public Hello(String name,int id){}
+
 }
