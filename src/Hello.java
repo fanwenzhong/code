@@ -7,7 +7,8 @@ public class Hello {
     }
     /*空参数构造方法*/
     public Hello(){};
-    /*y有参数构造方法*/
-    public Hello(String name,int id){}
+    /*有参数构造方法*/
+    public Hello(String name){};
+    public Hello(String name,int id){};
 
 }
